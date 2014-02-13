@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/bumblebee2/camera_drivers_experimental/libdc1394v2
+END
+videre_fix.patch
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/bumblebee2/camera_drivers_experimental/libdc1394v2/videre_fix.patch
+END
+libdc1394v2-svn-r580.tar.gz.md5sum
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/5/trunk/bumblebee2/camera_drivers_experimental/libdc1394v2/libdc1394v2-svn-r580.tar.gz.md5sum
+END
+ROS_BUILD_BLACKLIST_OSX
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/bumblebee2/camera_drivers_experimental/libdc1394v2/ROS_BUILD_BLACKLIST_OSX
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/bumblebee2/camera_drivers_experimental/libdc1394v2/manifest.xml
+END
+configure_in.patch
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/bumblebee2/camera_drivers_experimental/libdc1394v2/configure_in.patch
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/bumblebee2/camera_drivers_experimental/libdc1394v2/Makefile
+END

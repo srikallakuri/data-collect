@@ -1,0 +1,26 @@
+<package>
+<description brief="Firewire camera library">
+libdc1394 is a library that provides a high level programming
+interface for application developers who wish to control IEEE 1394
+based cameras that conform to the 1394-based Digital Camera
+Specifications (also known as the IIDC or DCAM Specifications)
+</description>
+<author>Damien Douxchamps</author>
+<license>LGPL</license>
+<review status="3rdparty" notes=""/>
+<url>http://damien.douxchamps.net/ieee1394/libdc1394/</url>
+<export>
+  <cpp cflags="-I${prefix}/libdc1394v2/include" lflags="-Wl,-rpath,${prefix}/libdc1394v2/lib -L${prefix}/libdc1394v2/lib/ -ldc1394" />
+  <doxymaker external="http://damien.douxchamps.net/ieee1394/libdc1394/"/>
+</export>
+<versioncontrol type="svn" url="https://libdc1394.svn.sourceforge.net/svnroot/libdc1394/trunk/libdc1394"/>
+
+  <rosdep name="automake"/>
+  <rosdep name="autoconf"/>
+  <rosdep name="libtool"/>
+  <install>
+    <arch><pacman pkg="libdc1394"/></arch>
+  	<intrepid><apt pkg="libdc1394-22-dev"/></intrepid>
+  </install>
+</package>
+
